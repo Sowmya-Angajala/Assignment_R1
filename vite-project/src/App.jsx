@@ -10,7 +10,7 @@ function App() {
       <div>
         <h1 className="title">Pokemon Viewer</h1>
         <select
-        className="dropdown"
+          className="dropdown"
           value={index}
           onChange={(e) => currentPokemon(Number(e.target.value))}
         >
@@ -21,9 +21,16 @@ function App() {
           ))}
         </select>
         <PokemonCard pokemon={pokemon} />
-        <div >
-          <button onClick={prev} disabled={index===0}>Prev</button>
-          <button onClick={next} disabled={index ===total-1}>Next</button>
+        <div className="pagination">
+          <button onClick={prev} disabled={index === 0}>
+            Prev
+          </button>
+          <span className="page-info">
+            {index + 1} / {total}
+          </span>
+          <button onClick={next} disabled={index === total - 1}>
+            Next
+          </button>
         </div>
       </div>
     </>
