@@ -1,16 +1,91 @@
-# React + Vite
+# 📌 Pokemon Viewer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and elegant **Pokemon Viewer** built using **React**.  
+Users can browse Pokémon using a dropdown or navigation buttons with a clean **coffee & beige themed UI**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🔍 Select Pokémon from dropdown  
+- ⏭ Navigate using **Next / Prev buttons**  
+- 📊 Pagination-style navigation  
+- 🎨 Clean and classy **coffee + beige UI**  
+- 🖼 Smooth image hover effects  
+- 📱 Responsive and centered layout  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React  
+- JavaScript (ES6)  
+- CSS (Custom styling)  
+- Custom Hook (usePokemon)  
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── App.jsx
+│── App.css
+│── PokemonCard.jsx
+│── usePokemon.js
+│── lala.js
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/pokemon-viewer.git
+```
+
+2. Navigate to project folder
+
+```bash
+cd pokemon-viewer
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the app
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎮 Usage
+
+- Select a Pokémon from the dropdown  
+- Use **Prev / Next buttons** to navigate  
+- View Pokémon image, name, and description  
+
+---
+
+## 🎨 UI Theme
+
+This project uses a **coffee-inspired color palette**:
+
+- ☕ Coffee Brown  
+- 🤍 Soft Beige Background  
+- 🪵 Cream Card Design  
+
+---
+
+## 👩‍💻 Author
+
+**Sowmya Angajala**
+
+---
